@@ -34,7 +34,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Difference between global scope and block scope?
+                  Difference between global scope and block scope?
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -52,18 +52,19 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    How does javascript event loop work?
+                  How does javascript event loop work?
                 </button>
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                    <p>We often hear that JavaScript is a single-threaded programming language, which means it executes all of the instructions line by line in a synchronous manner. Thus since everything works on the main thread, there seems to be no possibility of executing parallel processes in JavaScript. But now let's assume that we have a function which is taking some time to execute, for example in the below function which is having a loop over 10k times, the console.log() would be executed once the loop is over and in the meantime, our UI interaction with the browser would be interrupted.
+                    <p>
+                    We often hear that JavaScript is a single-threaded programming language, which means it executes all of the instructions line by line in a synchronous manner. Thus since everything works on the main thread, there seems to be no possibility of executing parallel processes in JavaScript. But now let's assume that we have a function which is taking some time to execute, for example in the below function which is having a loop over 10k times, the console.log() would be executed once the loop is over and in the meantime, our UI interaction with the browser would be interrupted.
                     <br><br>
-                    Memory Heap — this is where the memory allocation happens, all of our object variables are assigned here in a random manner.
+                    <b>Memory Heap:</b> this is where the memory allocation happens, all of our object variables are assigned here in a random manner.
                     <br><br>
-                    Call Stack — this is where your function calls are stored.    
+                   <b>Call Stack:</b> this is where your function calls are stored.    
                      <br><br>
-                     Event Queue — is a special queue, which keeps track of all the functions queues, which are needed to be pushed into the call stack. The event queue is responsible for sending new functions to the track for processing. The queue data structure is required to maintain the correct sequence in which all operations should be sent for execution.
+                     <b>Event Queue:</b> is a special queue, which keeps track of all the functions queues, which are needed to be pushed into the call stack. The event queue is responsible for sending new functions to the track for processing. The queue data structure is required to maintain the correct sequence in which all operations should be sent for execution.
                     </p>
                 </div>
               </div>
